@@ -1,0 +1,289 @@
+*{
+    margin: 0; padding:0;
+}
+html{
+    font-size: 16px;
+    color: #333;
+    font-family: 'lato';
+    font-weight: 400;
+    
+}
+h1,h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+section{
+    padding-top: 200px;
+
+}
+#hero{
+    
+    background-image:radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/Men-clothing-websites.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar-nav li a:hover{
+    color: darkcyan;
+    text-decoration: underline;
+    
+}
+.btn{
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.btn-primary{
+    background-color: darkcyan;
+    border-color: darkcyan;
+    border-radius: 100px;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: darkcyan;
+}
+
+/* start why choose me */
+.choose {
+    margin-top: 90px;
+  }
+  .choose .row .col-sm-12.col-md-6 {
+    padding: 20;
+   
+  }
+  .choose .row .col-sm-12.col-md-6:first-child{
+    margin-bottom: 0;
+  }
+  
+  .choose .row .col-md-6 img {
+      width: 100%;
+      padding-right: 0;
+      
+  }
+  .choose .col-md-6:last-child {
+    background-color: darkcyan;
+     color: white;
+      text-align: left;
+      margin-bottom: 0px;
+      margin-top: 0;
+     
+    
+  }
+  .choose .col-md-6:last-child h1 {
+    margin: 40px 40px 60px 40px;
+  
+    letter-spacing: 1.5;
+    font-weight: bold;
+  }
+  .choose .col-md-6:last-child p {
+    margin: 40px;
+    line-height: 2;
+  }
+  
+  
+  .choose .col-md-6:last-child a {
+    margin: 10px 40px 0 40px;
+    text-decoration: none;
+    padding: 20px;
+    color: darkcyan;
+    background-color: white;
+    font-weight: bold;
+  }
+  .choose .col-md-6:last-child a:hover {
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid white;
+  }
+  /* end why choose me */
+  
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+        
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after{
+    content: '';
+    background: darkcyan;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+    
+}
+.col-4 p{
+    font-size: 14px;
+    
+}
+.rating{
+    color: darkcyan;
+}
+.col-4:hover{
+    transform: translateY(-50px);
+}
+
+
+
+  .pricing {
+  background-color: #e7e7e7;
+  color: #05052a;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.pricing h1 {
+  font-size: 60;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 55px 0 10px 0;
+}
+.pricing p {
+  font-size: 20;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.pricing .card {
+  margin-top: 45px;
+  transition: all 0.5s ease-in-out;
+}
+.pricing .card-body {
+  color: black;
+  padding: 0;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 42, 1);
+}
+.pricing .card-body .card-title {
+  margin-top: 20px;
+  font-size: 40;
+  padding: 0 20px;
+}
+.pricing .card-body .card-text {
+  background-color: darkgray;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.pricing .card-body .list-group-item.active {
+  background-color:darkgray;
+  border: 2px solid;
+}
+.card .card-body a {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: darkgray;
+  border: 2px solid darkgray;
+}
+.card.smal-company {
+  margin-top: 20px;
+}
+.card.smal-company .card-text {
+  background-color: darkgray;
+}
+.pricing .card.smal-company .card-body .list-group-item.active {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+.pricing .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+footer{
+    padding: 50px 100px;
+    background-color: #333;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-nav{
+   list-style: none;
+}
+
+.footer-nav li{
+display: inline-block;
+margin-left: 10px;
+
+}
+
+.footer-nav li a{
+color: white;
+text-decoration: none;
+
+}
+
+.footer-nav li a:hover{
+color: darkcyan;
+text-decoration: underline;
+
+}
+
+
+
+.social-nav{
+list-style: none;
+float: right;
+}
+
+.social-nav li{
+display: inline-block;
+margin-left: 10px;
+
+}
+
+.social-nav li a{
+color: white;
+text-decoration: none;
+
+}
+
+.social-nav li a:hover{
+color: darkcyan;
+text-decoration: underline;
+
+}
